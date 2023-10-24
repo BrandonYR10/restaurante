@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de reclamaciones</title>
+     <!-- Invoca iconos de la web -->
+     <script src="https://kit.fontawesome.com/f368768ce7.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="CSS/Pestañas.css">
+     <link rel="stylesheet" href="CSS/Footer.css">
+     <link rel="stylesheet" href="CSS/Body.css">
+
+
+</head>
+
+<body style="background: rgb(246, 177, 87);">
+ <!-- INICIO CABECERA -->
+<header>
+    <table >
+        <tr>
+            <td colspan="9"  >
+                <img src="img/logo.png" align="center" width="200px" > 
+            </td>
+        </tr>
+        <tr >
+            <td width="78px"><a class="inicio" href="INICIO.html">INICIO</a>&nbsp;</td>
+            <td width="80px"><a class="inicio" href="CARTA.html">CARTA</a>&nbsp;</td>
+            <td width="133px"><a class="inicio" href="PROMOCIONES.html">PROMOCIONES</a>&nbsp;</td>
+            <td width="102px"><a class="inicio" href="SERVICIOS.html">SERVICIOS</a>&nbsp;</td>
+            <td width="134px"><a class="inicio" href="RESTAURANTES.html">RESTAURANTES</a>&nbsp;</td>
+            <td width="133px"><a class="inicio" href="CONTACTANOS.html">CONTACTANOS</a>&nbsp;</td> 
+            <td ></td>
+            <td width="132px"><a class="inicio" href="INICIAR-SESION.html"><i class="fas fa-user-circle" ><br><h4>Inicia Sesión</h4></i></a>&nbsp;</td>
+            <td width="132px"><a class="inicio" href="Mi-carrito.html"><i class="fas fa-cart-plus fa-2x"><br><h4>Mi carrito</h4></i></a></td> 
+        </tr> 
+    </table>
+</header>
+<!-- FIN DE LA CABECERA -->
+    <form  action="" method="post" enctype="text/plain">
+        
+        <table style="padding: 45px 70px; ">
+            <th colspan="2">
+                <img src="img/libro.png" alt="" width="700" height="500">
+                <br>
+                <p>
+                    Conforme a lo establecido en código de la Protección y 
+                    Defensa del consumidor contamos con un Libro de Reclamaciones a 
+                    tu disposición para que puedas registrar tu queja o reclamo acerca 
+                    de algún pedido o transacción realizada.
+                </p>
+            </th>
+            <tr>
+                <td>
+                    <fieldset style="padding: 55px 50px;">
+                        <legend>Identificación del usuario &nbsp;</legend>
+                        <p>Nombres: <input type="text" name="nombre"/> <br>
+                           Primer apellido: <input type="text" name="apellido1" size="25"/> <br>
+                           Segundo apellido;<input type="text" name="apellido2" size="25"/></p>
+                        <p>Dirección: <input type="text" name="direccion" size="50" value="calle o plaza, número y piso."/></p>
+                        <p>e-mail: <input type="text" name="e-mail" size="35" value=" @ "/></p>
+                        <p>Telefono: <input type="text" name="telefono"/> 
+                        <p>Tipo de documento:
+                           <input type="radio" name="sexo" value="v"/> DNI &nbsp;
+                           <input type="radio" name="sexo" value="m"/> RUC</p>
+                           <input type="text" name="ID"/>
+                        </fieldset>	
+                </td>
+                <td>
+                    <fieldset style="padding: 30px 50px;">
+                        <legend>Detalle del reclamo &nbsp;</legend> 
+                        <p>Sede: <select name="sede">
+                            <option>Chosica</option>
+                            <option>Breña</option>
+                            <option>Jesús María</option>
+                          </select>
+                        </p>
+                        <p>Nivel de estudios<br/>
+                            <input type="radio" name="reclamo" value="1" checked="checked"/>RECLAMO: Disconformidad relacionada a los productos o servicios.<br/>
+                            <input type="radio" name="reclamo" value="2"/> QUEJA: Disconformidad no relacionada a los productos o servicios; o, malestar o descontento respecto a la atención al público<br/>
+                            <p>Detalles: <br>
+                                <textarea name="comentario: " rows="5" cols="50" > </textarea>
+                            </p>
+                            <p><input type="submit" value="Enviar" style="padding: 10px 20px;"/></p>
+                        </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+<!--  FOOTER  -->
+<footer>
+    <table bgcolor="#e6b20a">
+        <thead>
+            <th align="center"><br>Mabys<hr width="200px"></th>
+            <th align="center"><br>Servicios<hr width="200px"></th>
+            <th align="center"><br>Politicas y terminos<hr width="200px"></th>
+            <th align="center"><br>Metodos de Pago<hr width="200px"></th>
+            <th align="center"><br>Contactanos<hr width="200px"></th>
+        </thead> <br>
+
+        <tr>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="Historia.html">Nosotros</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="SERVICIOS.html">Celebra tu cumpleaños</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="https://www.pardoschicken.pe/terminos-y-condiciones/">Terminos y Condiciones</a></td>
+            <td  width="400" height="0" rowspan="4" align="center">
+                <i style="color: darkblue;" class="fab fa-cc-visa fa-2x"></i> &nbsp;
+                <i style="color: darkblue;" class="fab fa-cc-mastercard fa-2x"></i>
+            </td>
+            <td  width="400" height="0" >&nbsp; <a  class="final" href="CONTACTANOS.html">Haz tu reserva</a></td>
+        </tr>
+
+        <tr>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="Historia.html">Historia</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="SERVICIOS.html">Reservas corporativas</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="https://www.pardoschicken.pe/politicas-de-privacidad/">Política de privacidad</a></td>
+            <td  width="400" height="0">&nbsp;&nbsp;<a  class="final" href="CONTACTANOS.html">Trabaja con nosotros</a></td>
+        </tr>
+
+        <tr>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="Historia.html">Misión</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="SERVICIOS.html">Delivery</a></td>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="Equipo.html">Equipo de programadores</a></td>
+            
+            <td  width="400" height="0" >&nbsp;
+                <label style="color: darkblue;">Ubicanos: </label>
+                    <select name="" id="">
+                        <option value="">Jesús María</option>
+                        <option value="">Breña</option>
+                        <option value="">Chosica</option>
+                    </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td  width="400" height="0" >&nbsp;<a  class="final" href="Historia.html">Visión</a></td>
+            <td  width="400" height="0" > &nbsp;<a  class="final" href="Libro-Reclamación.html">Libro de reclamación: </a><br></td>
+
+        </tr>
+        <tr>
+            <td  align="left" >&nbsp;<a  class="final" href="Historia.html">Valores</a></td>
+            <td colspan="3"></td>
+            <td align="center"> 
+                <form action="RESTAURANTES.html">
+                    <input type="submit" value="Buscar" />
+                </form> 
+                
+            </td>
+        </tr>
+        <tr>    
+            <td  width="400" height="0" ></td>
+            <td width="400" height="0" align="center"><a  class="final" href="Libro-Reclamación.html"><i class="fas fa-book-open fa-3x"></i></a></td>
+        </tr>    
+        <tr>
+            <th align="right" colspan="5">
+                <h5 >Copyright © Team Cobra Kai &nbsp; </h5>
+            </th>
+        </tr>         
+        
+    </table>
+</footer>     
+</body>
+
+</html>

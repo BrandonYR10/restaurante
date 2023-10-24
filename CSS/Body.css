@@ -1,0 +1,79 @@
+
+body{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    left:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+*{box-sizing:border-box;}
+.social{
+    /*las imágenes usadas tienen width de 48px*/
+	width:48px;
+	position:fixed;
+	top:50px;
+	left:0;
+    top:50%;
+	height:205px;
+    margin-top:-100px;
+     
+}
+
+
+form {
+    text-align: center;
+  }
+.sub{
+    
+        width: 25rem;
+        height: 3rem;   
+        border-color: rgb(10, 10, 10); 
+        background-color: rgba(212, 84, 67, 0.486);
+        border-radius: 20px;
+}
+.subir{
+
+    border-color: rgb(182, 23, 23);
+    background-color: rgba(212, 84, 67, 0.486);
+    border-width: 10px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+.contactos{
+  color: rgba(12, 12, 12, 0.747);
+}
+
+.pu{
+    width: 15rem;
+    height: 2rem;   
+    border-color: rgb(10, 10, 10); 
+    background-color: rgba(212, 84, 67, 0.486);
+    border-radius: 20px;
+
+}
+.area{
+    border-radius: 10px;
+    background-color: rgba(245, 241, 241, 0.308);
+}
+.formulario{
+   /* 
+    background: #ee0979; 
+    background: -webkit-linear-gradient(to right, #f06a58, #eedf09);  
+    background: linear-gradient(to right, #ff6a00, #ee0979);  */
+    height: 650px;
+}

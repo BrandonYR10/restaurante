@@ -1,0 +1,13 @@
+.final{
+    color: darkblue;
+    text-decoration: none;
+    
+}
+.final:hover{   
+    text-decoration: underline blue;
+    font-family:sans-serif;
+}
+footer{
+    width:100%;
+    background-color:#e6b20a;
+}
